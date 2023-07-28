@@ -14,7 +14,7 @@ Packer:
 use {"jonboh/wezterm-mux.nvim"}
 ```
 
-I've only tested with Packer, but given that this plugin is reasonably small
+I've only tested it with Packer, but given that this plugin is quite small
 and doesn't have configuration I think it should work on any other plugin
 manager. Let me know if it does not.
 
@@ -114,9 +114,9 @@ which nvim
 ```
 
 ## Additional help
-You can check the relevant files in my [wezterm config](https://github.com/jonboh/dotfiles/tree/main/.config/wezterm) and [neovim config](https://github.com/jonboh/dotfiles/blob/main/.config/nvim/after/plugin/keymap/init.lua#L36) from my dotfiles
+You can check the relevant files in my [wezterm config](https://github.com/jonboh/dotfiles/tree/main/.config/wezterm) and [neovim config](https://github.com/jonboh/dotfiles/blob/main/.config/nvim/after/plugin/keymap/init.lua#L36) from my dotfiles.
 
-Or open an [issue](https://github.com/jonboh/wezterm-mux.nvim/issues)
+Or open an [issue](https://github.com/jonboh/wezterm-mux.nvim/issues).
 
 ## Related
 - [aca/wezterm.nvim](https://github.com/aca/wezterm.nvim): Unfortunately this needs from an external binary to cross the nvim/wezterm boundary and it uses some deprecated neovim functionality.
