@@ -8,6 +8,16 @@ is done at an edge and a move out of neovim needs to be forward to wezterm.
 If the movement is performed across neovim windows these functions work as the usual
 `<C-w>h`, `<C-w>j` (..) combinations
 
+## Installation
+Packer:
+```lua
+use {"jonboh/wezterm-mux.nvim"}
+```
+
+I've only tested with Packer, but given that this plugin is reasonably small
+and doesn't have configuration I think it should work on any other plugin
+manager. Let me know if it does not.
+
 ## NeoVim Config
 At some point in your NeoVim config you'll need to bind the keys you use to navigate between windows
 to the functions of this plugin
@@ -22,7 +32,6 @@ nnoremap("<A-x>", "<C-w>q") -- some actions dont need from a specific function
 
 ## Wezterm Config
 You should add this configuration snippet some place in your `wezterm/wezterm.lua`.
-
 
 ```lua
 local wezterm = require("wezterm")
@@ -110,5 +119,5 @@ You can check the relevant files in my [wezterm config](https://github.com/jonbo
 Or open an [issue](https://github.com/jonboh/wezterm-mux.nvim/issues)
 
 ## Related
-- [aca/wezterm.nvim](https://github.com/aca/wezterm.nvim): Unfortunately this needs from an external binary cross the nvim/wezterm frontier.
+- [aca/wezterm.nvim](https://github.com/aca/wezterm.nvim): Unfortunately this needs from an external binary to cross the nvim/wezterm boundary and it uses some deprecated neovim functionality.
 - [willothy/wezterm.nvim](https://github.com/willothy/wezterm.nvim): You could get something similar with this plugin, but it lacks the wezterm specific instructions.
