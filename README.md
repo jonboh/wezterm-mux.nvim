@@ -107,7 +107,7 @@ which nvim
 ## Additional help
 You can check the relevant files in my [wezterm config](https://github.com/jonboh/dotfiles/tree/main/.config/wezterm) and [neovim config](https://github.com/jonboh/dotfiles/blob/main/.config/nvim/after/plugin/keymap/init.lua#L36) from my dotfiles
 
-Or open an [issue]()
+Or open an [issue](https://github.com/jonboh/wezterm-mux.nvim/issues)
 
 ## Related
 - [aca/wezterm.nvim](https://github.com/aca/wezterm.nvim): Unfortunately this needs from an external binary cross the nvim/wezterm frontier.
