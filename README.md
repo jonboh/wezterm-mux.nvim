@@ -8,7 +8,7 @@ is done at an edge and a move out of neovim needs to be forward to wezterm.
 If the movement is performed across neovim windows these functions work as the usual
 `<C-w>h`, `<C-w>j` (..) combinations
 
-![Wezterm+Nvim](https://imgur.com/a/crq81eW)
+![Wezterm+Nvim](https://github.com/jonboh/wezterm-mux.nvim/blob/media/wezterm_mux_nvim.gif?raw=true)
 
 ## Installation
 Packer:
